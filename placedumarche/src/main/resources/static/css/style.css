@@ -1,0 +1,20 @@
+:root {
+    --elsize: 10em; /* elements width */
+    --margL: 10px; /* margin (left and right)*/
+    --margT: 1em; /* margin top */
+    --bRs: 0.25em; /* border radius */
+    --bckCol: #213370; /* background color*/
+    --br: black 0.2em solid; /* border  */
+}
+
+
+.container-fluid{
+    width: 80%;
+}
+
+.elt{
+    margin-top: var(--margT);
+    border: var(--br);
+    border-radius: var(--bRs);
+    width: var(--elsize);
+}

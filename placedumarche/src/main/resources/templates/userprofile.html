@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Title</title>
+</head>
+<body>
+
+    <form method="post">
+        <div class="form-group">
+        <fieldset>
+            <input class="form-control" type="text" th:placeholder="nom" th:name="name"/><br/>
+            <input class="form-control" type="text" th:placeholder="prénom" th:name="firstName"/><br/>
+            <input class="form-control" type="email" th:placeholder="email" th:name="email"/><br/>
+            <input class="form-control" type="text" th:placeholder="téléphone" th:name="phoneNumber"/><br/>
+
+            <label>Adresse</label><br/>
+            <input class="form-control" type="text" th:placeholder="num" th:name="number"/><br/>
+            <input class="form-control" type="text" th:placeholder="bat" th:name="building"/><br/>
+            <input class="form-control" type="text" th:placeholder="sup" th:name="sup"/><br/>
+            <input class="form-control" type="text" th:placeholder="rue" th:name="street"/><br/>
+            <input class="form-control" type="text" th:placeholder="CP" th:name="zipCode"/><br/>
+            <input class="form-control" type="text" th:placeholder="ville" th:name="city"/><br/>
+
+            <input class="form-control" type="submit" value="Enregistrer"/>
+
+        </fieldset>
+        </div>
+    </form>
+
+
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" layout:decorator="layout">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Articles</title>
+</head>
+<body>
+<header>
+    <a href="/map">sur la carte</a>
+    <a href="/prod">par producteur</a>
+</header>
+
+<section layout:fragment="content">
+
+    <fieldset>
+        <form action = "/items" method="post">
+            <input class = "elt" type="text" placeholder="Name" name="name"/><br />
+            <input class = "elt" type="number" placeholder="Price" name="price" /><br />
+            <textarea class = "elt" rows="10" name = "desc" placeholder="Description"/><br />
+            <select class="elt" name="category">
+                <option th:each="cat:${listcat}" th:text="${cat.getName()}" th:value="${cat.getId()}"></option>
+            </select>
+            <input type="submit" />
+        </form>
+    </fieldset>
+
+</section>
+
+</body>
+</html>
