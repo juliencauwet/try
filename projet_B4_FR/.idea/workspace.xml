@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8fee2532-311f-458d-914a-45e0c7f02cd7" name="Default" comment="modification fichier travis.yml">
-      <change afterPath="$PROJECT_DIR$/src/.travis.yml" afterDir="false" />
+    <list default="true" id="8fee2532-311f-458d-914a-45e0c7f02cd7" name="Default" comment="changement de commande dans travis.yml --&gt; cd ../docker/dev">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src" beforeDir="false" afterPath="$PROJECT_DIR$/src" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/src/myerp-model/target/" />
@@ -74,8 +72,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="165">
+              <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -168,7 +166,7 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/myerp-business/src/main/java/com/dummy/myerp/business/impl/manager/ComptabiliteManagerImpl.java" root0="SKIP_INSPECTION" />
@@ -192,6 +190,7 @@
         <option value="$PROJECT_DIR$/src/myerp-business/src/test/java/com/dummy/myerp/business/impl/manager/ComptabiliteManagerImplTest.java" />
         <option value="$PROJECT_DIR$/docker/dev/docker-compose.yml" />
         <option value="$PROJECT_DIR$/.travis.yml" />
+        <option value="$PROJECT_DIR$/src/.travis.yml" />
       </list>
     </option>
   </component>
@@ -244,7 +243,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546813213750" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546813553661" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="PostgreSQL&#10;H2" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -262,6 +261,9 @@
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -435,7 +437,7 @@
       <workItem from="1538984593573" duration="9266000" />
       <workItem from="1539124528801" duration="1441000" />
       <workItem from="1541619736591" duration="72000" />
-      <workItem from="1546808889430" duration="1471000" />
+      <workItem from="1546808889430" duration="1686000" />
     </task>
     <task id="LOCAL-00001" summary="méthodes outsourcée pour plus de lisiblité dans le contrôle des règles de comptabilité">
       <created>1537090916071</created>
@@ -465,7 +467,21 @@
       <option name="project" value="LOCAL" />
       <updated>1546812918854</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="travis changement de dossier">
+      <created>1546813206900</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1546813206900</updated>
+    </task>
+    <task id="LOCAL-00006" summary="changement de commande dans travis.yml --&gt; cd ../docker/dev">
+      <created>1546813354327</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1546813354327</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -501,7 +517,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95152000" />
+    <option name="totallyTimeSpent" value="95367000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -560,7 +576,9 @@
     <MESSAGE value="Entrée de données hardcodées dams le test de ComptabiliteManagerImplTest" />
     <MESSAGE value="création d'un fichier travis.yml" />
     <MESSAGE value="modification fichier travis.yml" />
-    <option name="LAST_COMMIT_MESSAGE" value="modification fichier travis.yml" />
+    <MESSAGE value="travis changement de dossier" />
+    <MESSAGE value="changement de commande dans travis.yml --&gt; cd ../docker/dev" />
+    <option name="LAST_COMMIT_MESSAGE" value="changement de commande dans travis.yml --&gt; cd ../docker/dev" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/src/site/resources/doc/fichierDocExemple.txt">
@@ -841,8 +859,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="165">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
         </state>
       </provider>
     </entry>
