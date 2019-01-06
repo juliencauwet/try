@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8fee2532-311f-458d-914a-45e0c7f02cd7" name="Default" comment="changement de commande dans travis.yml &#10;--&gt; cd ..&#10;--&gt; cd /docker/dev">
+    <list default="true" id="8fee2532-311f-458d-914a-45e0c7f02cd7" name="Default" comment="changement de commande dans travis.yml &#10;--&gt; cd ..&#10;--&gt; ls&#10;--&gt; cd /docker/dev">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src" beforeDir="false" afterPath="$PROJECT_DIR$/src" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/.travis.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/src/myerp-model/target/" />
     <ignored path="$PROJECT_DIR$/src/myerp-consumer/target/" />
@@ -73,7 +74,7 @@
         <entry file="file://$PROJECT_DIR$/src/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+              <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -232,17 +233,6 @@
             <path>
               <item name="projet_B4_FR" type="b2602c69:ProjectViewProjectNode" />
               <item name="projet_B4_FR" type="462c0819:PsiDirectoryNode" />
-              <item name="docker" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projet_B4_FR" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projet_B4_FR" type="462c0819:PsiDirectoryNode" />
-              <item name="docker" type="462c0819:PsiDirectoryNode" />
-              <item name="dev" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projet_B4_FR" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projet_B4_FR" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -254,7 +244,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546813657916" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546813768413" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="PostgreSQL&#10;H2" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -448,7 +438,7 @@
       <workItem from="1538984593573" duration="9266000" />
       <workItem from="1539124528801" duration="1441000" />
       <workItem from="1541619736591" duration="72000" />
-      <workItem from="1546808889430" duration="1929000" />
+      <workItem from="1546808889430" duration="2124000" />
     </task>
     <task id="LOCAL-00001" summary="méthodes outsourcée pour plus de lisiblité dans le contrôle des règles de comptabilité">
       <created>1537090916071</created>
@@ -499,7 +489,14 @@
       <option name="project" value="LOCAL" />
       <updated>1546813639897</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="changement de commande dans travis.yml &#10;--&gt; cd ..&#10;--&gt; ls&#10;--&gt; cd /docker/dev">
+      <created>1546813757541</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1546813757541</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -535,7 +532,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95610000" />
+    <option name="totallyTimeSpent" value="95805000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -548,6 +545,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2353362" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -597,7 +595,8 @@
     <MESSAGE value="travis changement de dossier" />
     <MESSAGE value="changement de commande dans travis.yml --&gt; cd ../docker/dev" />
     <MESSAGE value="changement de commande dans travis.yml &#10;--&gt; cd ..&#10;--&gt; cd /docker/dev" />
-    <option name="LAST_COMMIT_MESSAGE" value="changement de commande dans travis.yml &#10;--&gt; cd ..&#10;--&gt; cd /docker/dev" />
+    <MESSAGE value="changement de commande dans travis.yml &#10;--&gt; cd ..&#10;--&gt; ls&#10;--&gt; cd /docker/dev" />
+    <option name="LAST_COMMIT_MESSAGE" value="changement de commande dans travis.yml &#10;--&gt; cd ..&#10;--&gt; ls&#10;--&gt; cd /docker/dev" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/src/site/resources/doc/fichierDocExemple.txt">
@@ -879,7 +878,7 @@
     <entry file="file://$PROJECT_DIR$/src/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
         </state>
       </provider>
     </entry>
